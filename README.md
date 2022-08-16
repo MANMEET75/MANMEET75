@@ -8,7 +8,7 @@
 <hr>
 <img src="Dashboard 1 (4).png" alt="">
 <hr>
-<img src="covid.png" alt="" height="400px" >
+<img src="covid.png" alt="" >
 <hr>
 <img src="usSales (2).png" alt="">
 <hr>

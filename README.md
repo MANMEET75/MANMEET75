@@ -5,6 +5,6 @@
 
 <img src="air.png" alt="">
 <img src="Dashboard 1 (4).png" alt="">
-<img src="covid.png" alt="">
+<img src="covid.png" alt="" height="500px">
 <img src="usSales (2).png" alt="">
-<img src="Sheet 3.png" alt="">
+<img src="Sheet 3.png" alt="" width="800px">

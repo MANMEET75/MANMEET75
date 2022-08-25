@@ -8,6 +8,7 @@
 <img src="air.png" alt="">
 <hr>
 <img src="Dashboard 1 (4).png" alt="">
+<img src="Dashboard 1 (4).png" alt="">
 <hr>
 <img src="covid.png" alt="" >
 <hr>

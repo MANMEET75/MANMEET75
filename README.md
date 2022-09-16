@@ -2,8 +2,6 @@
 <h1 align="center">Manmeet Singh</h1>
 <h3 align="center">Data Enthusiastic | 5⭐ in Python |  5⭐ in C </h3>
 
-<img src="https://media1.giphy.com/media/Lg6vO9CNlQmUna1c5i/200w.webp?cid=ecf05e47svr0flo5fsa0549znos1id20w99yoq6bwl29kftx&rid=200w.webp&ct=s" alt="">
-
 <h2 align="center">Tableau Business Intelligence Tool Projects</h2>
 
 

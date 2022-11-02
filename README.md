@@ -7,7 +7,9 @@
 
 <img src="air.png" alt="">
 <hr>
-<img src="Dashboard 2.png" alt="">
+<img src="D3.jpg" alt="">
+<hr>
+<img src="D4.jpg" alt="">
 <hr>
 <img src="Dashboard 1 (4).png" alt="">
 <hr>

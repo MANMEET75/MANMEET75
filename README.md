@@ -1,8 +1,4 @@
-
-<h1 align="center">Manmeet Singh</h1>
-<h3 align="center">Data Enthusiastic | 5⭐ in Python |  5⭐ in C++ </h3>
-
-
+<img src="m.png" alt="">
 
 <h2 align="center">Tableau Business Intelligence Tool Projects</h2>
 

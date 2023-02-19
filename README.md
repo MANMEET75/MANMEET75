@@ -5,6 +5,8 @@
 
 <img src="air.png" alt="">
 <hr>
+<img src="SALES.png" alt="">
+<hr>
 <img src="SALES DASHBOARD.jpg" alt="">
 <hr>
 <img src="D3.jpg" alt="">

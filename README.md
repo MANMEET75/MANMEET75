@@ -1,4 +1,3 @@
-<p align="left"> <img src=https://komarev.com/ghpvc/?username=MANMEET75 alt=MANMEET75/> </p>
 <img src="m.png" alt="">
 
 

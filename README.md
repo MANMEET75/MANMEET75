@@ -1,4 +1,4 @@
-<img src="I'm Manmeet Singh.png" alt="">
+<img src="in.png" alt="">
 
 
 <h2 align="center">Tableau Business Intelligence Tool Projects</h2>

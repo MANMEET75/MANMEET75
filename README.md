@@ -2,7 +2,7 @@
 
 
 <h2 align="center">Tableau Business Intelligence Tool Projects</h2>
-
+<img src="insights.png" alt="">
 <img src="air.png" alt="">
 <hr>
 <img src="SALES.png" alt="">

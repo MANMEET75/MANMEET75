@@ -1,5 +1,5 @@
 <img src="I'm Manmeet Singh.png">
-<h2>Professionally crafted Insights using Power BI and Tableau</h2>
+<h2>Power BI Insights</h2>
 
 <img src="RevoQuant/1.png" alt="">
 <hr>
@@ -13,7 +13,7 @@
 <hr>
 <img src="RevoQuant/6.png" alt="">
 <hr>
-
+<h2>Tableau Insights</h2>
 <img src="insights.png" alt="">
 <img src="air.png" alt="">
 <hr>

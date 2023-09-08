@@ -1,4 +1,5 @@
-<h2>Tableau and Power BI Dashboards</h2>
+<img src="I'm Manmeet Singh.png">
+
 <img src="RevoQuant/1.png" alt="">
 <img src="RevoQuant/2.png" alt="">
 <img src="RevoQuant/3.png" alt="">

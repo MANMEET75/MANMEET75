@@ -12,7 +12,7 @@
 <img src="RevoQuant/5.png" alt="">
 <hr>
 <img src="RevoQuant/6.png" alt="">
-<hr>
+
 <h2>Tableau Insights</h2>
 <img src="insights.png" alt="">
 <img src="air.png" alt="">

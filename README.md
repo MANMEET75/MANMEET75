@@ -1,5 +1,3 @@
-
-<h2 align="center">Interactive dashboards that I have built using Tableau and Power BI</h2>
 <img src="RevoQuant/1.png" alt="">
 <img src="RevoQuant/2.png" alt="">
 <img src="RevoQuant/3.png" alt="">

@@ -1,4 +1,4 @@
-<h1>Interactive dashboards that I have built using Tableau and Power BI</h1>
+<h2>Interactive dashboards that I have built using Tableau and Power BI</h2>
 <img src="RevoQuant/1.png" alt="">
 <img src="RevoQuant/2.png" alt="">
 <img src="RevoQuant/3.png" alt="">

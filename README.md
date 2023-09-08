@@ -1,11 +1,18 @@
 <img src="I'm Manmeet Singh.png">
+<h2>Professionally crafted Insights using Power BI and Tableau</h2>
 
 <img src="RevoQuant/1.png" alt="">
+<hr>
 <img src="RevoQuant/2.png" alt="">
+<hr>
 <img src="RevoQuant/3.png" alt="">
+<hr>
 <img src="RevoQuant/4.png" alt="">
+<hr>
 <img src="RevoQuant/5.png" alt="">
+<hr>
 <img src="RevoQuant/6.png" alt="">
+<hr>
 
 <img src="insights.png" alt="">
 <img src="air.png" alt="">
@@ -26,8 +33,7 @@
 <hr>
 <img src="usSales (2).png" alt="">
 <hr>
-<img src="Sheet 3.png" alt="" width="800px">
-<hr>
+
 
 
 

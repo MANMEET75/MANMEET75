@@ -31,8 +31,7 @@
 <hr>
 <img src="covid.png" alt="" >
 <hr>
-<img src="usSales (2).png" alt="">
-<hr>
+
 
 
 

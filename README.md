@@ -1,4 +1,4 @@
-<img src="I'm Manmeet Singh.png">
+
 <h2>Power BI Insights</h2>
 
 <img src="RevoQuant/1.png" alt="">

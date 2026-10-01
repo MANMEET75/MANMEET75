@@ -2,7 +2,7 @@
 
 # Manmeet Singh
 
-### AI Engineer · building systems that remember, reason, and respond
+### AI Engineer | Context, Loops & Graphs | Building local-first developer tools
 
 **Senior AI Engineer** · 3+ years across applied AI and data science
 

@@ -4,7 +4,7 @@
 
 ### AI Engineer · building systems that remember, reason, and respond
 
-**Senior AI Engineer at CARS24** · 3+ years across applied AI and data science
+**Senior AI Engineer** · 3+ years across applied AI and data science
 
 [Portfolio](https://manmeet75.github.io/Portfolio/) · [GitHub projects](https://github.com/MANMEET75?tab=repositories) · [LinkedIn](https://www.linkedin.com/in/manmeet75/)
 

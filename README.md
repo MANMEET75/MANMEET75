@@ -1,4 +1,4 @@
-![Dark terminal graphic introducing Manmeet Singh as an AI Engineer with a Semantra Python example](./assets/ai-engineer-hero.svg)
+![Dark terminal graphic introducing Manmeet Singh as an AI Engineer with a Semantra Python example](./assets/ai-engineer-hero.png)
 
 <div align="center">
 
@@ -16,7 +16,7 @@ I build practical NLP tools, retrieval systems, and agent workflows that develop
 
 Few-shot classification with ONNX embeddings, BM25 matching, and confidence checks. It runs locally without a hosted inference API and can return `Unknown` for ambiguous input. [Install from PyPI →](https://pypi.org/project/semantra-classify/)
 
-![Semantra pipeline: text query, ONNX and BM25 matching, score fusion, then a class label or Unknown](./assets/semantra-pipeline.svg)
+![Semantra pipeline: text query, ONNX and BM25 matching, score fusion, then a class label or Unknown](./assets/semantra-pipeline.png)
 
 <details>
 <summary><strong>Run the code</strong></summary>

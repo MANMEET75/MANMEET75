@@ -1,28 +1,36 @@
-![Dark terminal graphic introducing Manmeet Singh as an AI Engineer with a Semantra Python example](./assets/ai-engineer-hero.png)
-
 <div align="center">
 
-# Manmeet Singh · AI Engineer
+# Manmeet Singh
 
-I build practical NLP tools, retrieval systems, and agent workflows that developers can run, evaluate, and ship.
+### AI Engineer · NLP · Retrieval · Agentic Systems
 
-[Portfolio](https://manmeet75.github.io/Portfolio/) · [LinkedIn](https://www.linkedin.com/in/manmeet75/) · [Repositories](https://github.com/MANMEET75?tab=repositories)
+I turn AI ideas into tools that developers can run, inspect, and improve.
+
+[Portfolio](https://manmeet75.github.io/Portfolio/) · [Projects](https://github.com/MANMEET75?tab=repositories) · [LinkedIn](https://www.linkedin.com/in/manmeet75/)
 
 </div>
 
-## `> featured_build`
+```text
+manmeet@build:~$ cat focus.txt
 
-### [Semantra](https://github.com/MANMEET75/semantra-classify) — local-first text classification
+  language    → understand the request
+  retrieval   → find the useful context
+  agents      → connect tools to a workflow
+  evaluation  → check what actually works
 
-Few-shot classification with ONNX embeddings, BM25 matching, and confidence checks. It runs locally without a hosted inference API and can return `Unknown` for ambiguous input. [Install from PyPI →](https://pypi.org/project/semantra-classify/)
+manmeet@build:~$ _
+```
 
-![Semantra pipeline: text query, ONNX and BM25 matching, score fusion, then a class label or Unknown](./assets/semantra-pipeline.png)
+## `01 / featured build`
 
-<details>
-<summary><strong>Run the code</strong></summary>
+### [Semantra](https://github.com/MANMEET75/semantra-classify) — text classification that runs locally
 
-```bash
-pip install semantra-classify
+Semantra combines semantic matching with keyword matching. It uses ONNX embeddings and BM25, then checks confidence before choosing a class. Ambiguous input can return `Unknown`.
+
+```text
+                           ┌─ ONNX embeddings ─┐
+text input ────────────────┤                   ├─ score fusion ── class / Unknown
+                           └─ BM25 matching ───┘
 ```
 
 ```python
@@ -36,30 +44,30 @@ result = classifier.predict("There is an extra charge on my invoice")
 print(result.class_name, result.confidence)
 ```
 
-[Full quick start →](https://github.com/MANMEET75/semantra-classify#quick-start)
+`pip install semantra-classify` · [Source and full quick start](https://github.com/MANMEET75/semantra-classify#quick-start) · [PyPI](https://pypi.org/project/semantra-classify/)
 
-</details>
+## `02 / other work`
 
-## `> more_projects`
-
-| Project | What I built | Stack |
-| --- | --- | --- |
-| [Document Summarizer](https://github.com/MANMEET75/DocumentSummarizer-AgenticRAG-LlamaIndex) | Document summarization and retrieval with an API | Python · LlamaIndex · FastAPI |
-| [MCP Agentic Data Engineering](https://github.com/MANMEET75/MCP-Agentic-Data-Engineering) | Tool-driven data ingestion and workflow experiments | Python · MCP · MongoDB · MySQL |
-| [DataMentor](https://github.com/MANMEET75/DataMentor) | Data science interview assistant using a fine-tuned Mistral model | Python · Mistral · QLoRA |
+| Repository | What it explores | Stack |
+| :--- | :--- | :--- |
+| [Document Summarizer](https://github.com/MANMEET75/DocumentSummarizer-AgenticRAG-LlamaIndex) | Document summarization and retrieval through an API | Python · LlamaIndex · FastAPI |
+| [MCP Agentic Data Engineering](https://github.com/MANMEET75/MCP-Agentic-Data-Engineering) | Tool-driven data ingestion and workflows | Python · MCP · MongoDB · MySQL |
+| [DataMentor](https://github.com/MANMEET75/DataMentor) | A data science interview assistant using a fine-tuned Mistral model | Python · Mistral · QLoRA |
 
 <details>
-<summary><strong>Explore more repositories</strong></summary>
+<summary><strong>Open more projects</strong></summary>
 
 - [VideoAnalytics-HAR](https://github.com/MANMEET75/VideoAnalytics-HAR) — human activity recognition.
-- [HindBot](https://github.com/MANMEET75/HindBot) — retrieval-based question answering over documents.
-- [Portfolio](https://github.com/MANMEET75/Portfolio) — personal website source.
-- [Browse all repositories →](https://github.com/MANMEET75?tab=repositories)
+- [HindBot](https://github.com/MANMEET75/HindBot) — document question answering.
+- [Portfolio](https://github.com/MANMEET75/Portfolio) — source for my personal site.
+- [All repositories](https://github.com/MANMEET75?tab=repositories)
 
 </details>
 
-## `> toolbox`
+## `03 / tools I work with`
 
-`Python` · `SQL` · `NLP` · `embeddings` · `RAG` · `ONNX Runtime` · `FastAPI` · `Docker` · `GitHub Actions` · `AWS`
+`Python` · `SQL` · `NLP` · `Embeddings` · `RAG` · `ONNX Runtime` · `FastAPI` · `Docker` · `GitHub Actions` · `AWS`
 
-**Building something in applied AI?** [Connect on LinkedIn](https://www.linkedin.com/in/manmeet75/).
+---
+
+**Building something in applied AI?** [Connect with me on LinkedIn](https://www.linkedin.com/in/manmeet75/).

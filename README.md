@@ -1,95 +1,77 @@
 <div align="center">
 
-# Hi, I'm Manmeet Singh 👋
+# Manmeet Singh
 
-### AI Engineer • Machine Learning • NLP • Data & Analytics
+**AI engineer building practical NLP tools, agent workflows, and data products.**
 
-I build practical, production-oriented AI systems that turn complex data and language problems into reliable developer tools.
-
-[![GitHub](https://img.shields.io/badge/GitHub-MANMEET75-181717?style=flat&logo=github)](https://github.com/MANMEET75)
-[![Python](https://img.shields.io/badge/Python-Expert%20Focus-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
-[![Open Source](https://img.shields.io/badge/Open%20Source-Projects-3DA639?style=flat&logo=opensourceinitiative&logoColor=white)](https://github.com/MANMEET75?tab=repositories)
+[Portfolio](https://manmeet75.github.io/Portfolio/) · [Projects](https://github.com/MANMEET75?tab=repositories) · [LinkedIn](https://www.linkedin.com/in/manmeet75/) · [Semantra on PyPI](https://pypi.org/project/semantra-classify/)
 
 </div>
 
-## About me
+```text
+$ whoami
+Manmeet — Python • NLP • applied AI • data engineering
 
-- I design and ship AI/ML solutions with a focus on usability, performance, and maintainability.
-- Interested in natural language processing, semantic search, multilingual AI, retrieval systems, and intelligent automation.
-- I enjoy taking ideas from prototype to documented, testable, installable software.
-- I care about low-latency inference, modular architecture, reproducibility, and real-world impact.
+$ current_focus
+Local-first AI that is useful, testable, and easy to integrate.
+```
 
-## Featured project
+## Build with me
 
-### [Semantra Classify](https://github.com/MANMEET75/semantra-classify)
+I work across the path from **idea → model → API → deployment**. My projects span semantic search, document intelligence, AI agents, computer vision, and analytics. I care about clear interfaces, measurable behavior, and tools developers can actually run.
 
-An offline, few-shot semantic classification engine for Python.
+<details open>
+<summary><strong>🚀 Featured work</strong></summary>
 
-Define classes with example sentences and classify new queries without model training, API keys, or server infrastructure.
+| Project | What it does | Explore |
+| --- | --- | --- |
+| **Semantra** | Offline, few-shot text classification with ONNX embeddings and BM25. Supports English and multilingual input without a hosted inference API. | [Code](https://github.com/MANMEET75/semantra-classify) · [Package](https://pypi.org/project/semantra-classify/) |
+| **Document Summarizer** | LlamaIndex-based document summarization and retrieval with a FastAPI interface. | [Code](https://github.com/MANMEET75/DocumentSummarizer-AgenticRAG-LlamaIndex) |
+| **MCP Agentic Data Engineering** | Agent workflows for data ingestion, databases, object storage, scheduling, and task logging. | [Code](https://github.com/MANMEET75/MCP-Agentic-Data-Engineering) |
+| **DataMentor** | A data science interview assistant built around a fine-tuned Mistral model. | [Code](https://github.com/MANMEET75/DataMentor) |
 
-**Highlights**
+</details>
 
-- Local ONNX embeddings with no external inference API
-- Hybrid semantic similarity and BM25 lexical matching
-- Multilingual and Hinglish-friendly classification
-- Confidence thresholds with Unknown detection
-- Top-k predictions and inference-latency reporting
-- Persistence, concurrency-safe prediction, tests, and CI
-- Installable directly from PyPI
+## Try something I built
 
-Install: pip install semantra-classify
+Semantra runs locally after installation. Define intent classes with examples and classify new text:
 
-Example:
+```bash
+pip install semantra-classify
+```
 
-    from semantra import Classifier
+```python
+from semantra import Classifier
 
-    classifier = Classifier()
+classifier = Classifier()
+classifier.add_class("billing", ["I was charged twice", "My invoice is wrong"])
+classifier.add_class("support", ["The app will not open", "I need technical help"])
 
-    classifier.add_class("billing", [
-        "I was charged twice",
-        "There is an issue with my invoice",
-        "Why was money deducted from my account?"
-    ])
+result = classifier.predict("There is an extra charge on my invoice")
+print(result.class_name, result.confidence)
+```
 
-    classifier.add_class("technical_support", [
-        "The application is not opening",
-        "I am getting an error",
-        "The service stopped working"
-    ])
+[Read the full quick start →](https://github.com/MANMEET75/semantra-classify#quick-start)
 
-    result = classifier.predict("My invoice has an incorrect charge")
-    print(result.label, result.confidence, result.latency_ms)
+## Toolbox
 
-## Technical focus
+| Area | Tools and topics |
+| --- | --- |
+| **Core** | Python, SQL, REST APIs, Git, Docker |
+| **AI and search** | NLP, embeddings, retrieval, classification, LlamaIndex, Hugging Face, ONNX Runtime, BM25 |
+| **Data and delivery** | FastAPI, MongoDB, MySQL, GitHub Actions, AWS, analytics and dashboards |
 
-**Languages:** Python, SQL
+<details>
+<summary><strong>🧭 Explore more projects</strong></summary>
 
-**AI/ML:** NLP, semantic similarity, embeddings, information retrieval, classification, multilingual systems
+- [VideoAnalytics-HAR](https://github.com/MANMEET75/VideoAnalytics-HAR) — human activity recognition with a Streamlit prototype and API.
+- [HindBot](https://github.com/MANMEET75/HindBot) — question answering over documents with retrieval.
+- [Email Semantic Search](https://github.com/MANMEET75/Email-SemanticSearchEngine-PoweredByOpenAI) — semantic search across email content.
+- [Portfolio](https://github.com/MANMEET75/Portfolio) — my personal website.
+- [All public repositories](https://github.com/MANMEET75?tab=repositories) — browse the rest of my work.
 
-**Engineering:** ONNX Runtime, BM25, vector search, REST/API integration, testing, CI/CD, packaging, performance optimization
+</details>
 
-**Data & analytics:** data modeling, dashboarding, business intelligence, exploratory analysis
+---
 
-## What I am building
-
-I am focused on open-source AI tools that are:
-
-- Easy to install and integrate
-- Fully usable locally
-- Fast enough for production workloads
-- Modular and replaceable by design
-- Well documented and backed by tests
-
-## Explore more
-
-- [All repositories](https://github.com/MANMEET75?tab=repositories)
-- [Semantra Classify on PyPI](https://pypi.org/project/semantra-classify/)
-- [Semantra Classify documentation](https://github.com/MANMEET75/semantra-classify#readme)
-
-If you are building with NLP, semantic search, multilingual systems, or practical AI infrastructure, feel free to explore the projects and open an issue or discussion.
-
-<div align="center">
-
-### Build useful AI. Keep it open. Ship it well.
-
-</div>
+**Interested in building useful AI tools together?** [Connect on LinkedIn](https://www.linkedin.com/in/manmeet75/) or [explore my repositories](https://github.com/MANMEET75?tab=repositories).

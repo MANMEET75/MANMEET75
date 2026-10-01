@@ -1,46 +1,25 @@
+![Dark terminal graphic introducing Manmeet Singh as an AI Engineer with a Semantra Python example](./assets/ai-engineer-hero.svg)
+
 <div align="center">
 
-# Manmeet Singh
+# Manmeet Singh · AI Engineer
 
-### AI Engineer
+I build practical NLP tools, retrieval systems, and agent workflows that developers can run, evaluate, and ship.
 
-Building useful AI systems with Python, NLP, retrieval, and agent workflows.
-
-[Portfolio](https://manmeet75.github.io/Portfolio/) · [LinkedIn](https://www.linkedin.com/in/manmeet75/) · [All repositories](https://github.com/MANMEET75?tab=repositories)
+[Portfolio](https://manmeet75.github.io/Portfolio/) · [LinkedIn](https://www.linkedin.com/in/manmeet75/) · [Repositories](https://github.com/MANMEET75?tab=repositories)
 
 </div>
 
-```console
-manmeet@github:~$ cat profile.txt
-ROLE       AI Engineer
-FOCUS      NLP · semantic search · local AI · agent systems
-APPROACH   prototype → evaluate → package → deploy
-CURRENT    building developer-friendly AI tools
-```
+## `> featured_build`
 
-## `> about`
+### [Semantra](https://github.com/MANMEET75/semantra-classify) — local-first text classification
 
-I turn AI ideas into software people can run and use. My work covers language models, retrieval, classification, computer vision, and the APIs and workflows that bring them into applications.
+Few-shot classification with ONNX embeddings, BM25 matching, and confidence checks. It runs locally without a hosted inference API and can return `Unknown` for ambiguous input. [Install from PyPI →](https://pypi.org/project/semantra-classify/)
 
-```python
-stack = {
-    "languages": ["Python", "SQL"],
-    "ai": ["NLP", "embeddings", "RAG", "agents", "computer vision"],
-    "build": ["FastAPI", "ONNX Runtime", "Docker", "GitHub Actions"],
-    "data": ["MongoDB", "MySQL", "AWS"],
-}
-```
-
-## `> selected_projects`
-
-### 01. [Semantra](https://github.com/MANMEET75/semantra-classify) — local-first text classification
-
-Classify new text from a few examples, without training a model or calling a hosted inference API. It combines ONNX embeddings with BM25 matching and can return `Unknown` for ambiguous input.
-
-`Python` · `ONNX Runtime` · `BM25` · `multilingual NLP` · [PyPI package](https://pypi.org/project/semantra-classify/)
+![Semantra pipeline: text query, ONNX and BM25 matching, score fusion, then a class label or Unknown](./assets/semantra-pipeline.svg)
 
 <details>
-<summary><strong>Run a minimal example</strong></summary>
+<summary><strong>Run the code</strong></summary>
 
 ```bash
 pip install semantra-classify
@@ -57,39 +36,30 @@ result = classifier.predict("There is an extra charge on my invoice")
 print(result.class_name, result.confidence)
 ```
 
-[Documentation and more examples →](https://github.com/MANMEET75/semantra-classify#quick-start)
+[Full quick start →](https://github.com/MANMEET75/semantra-classify#quick-start)
 
 </details>
 
-### 02. [Document Summarizer](https://github.com/MANMEET75/DocumentSummarizer-AgenticRAG-LlamaIndex) — document intelligence
+## `> more_projects`
 
-A LlamaIndex-based document summarizer and retrieval application with a FastAPI interface.
-
-`Python` · `LlamaIndex` · `RAG` · `FastAPI`
-
-### 03. [MCP Agentic Data Engineering](https://github.com/MANMEET75/MCP-Agentic-Data-Engineering) — agent workflows
-
-Experiments with tools for data ingestion, databases, object storage, scheduling, and task logging.
-
-`Python` · `MCP` · `MongoDB` · `MySQL` · `Airflow`
-
-### 04. [DataMentor](https://github.com/MANMEET75/DataMentor) — AI interview assistant
-
-A data science interview assistant built around a fine-tuned Mistral model.
-
-`Python` · `Mistral` · `QLoRA` · `AWS`
+| Project | What I built | Stack |
+| --- | --- | --- |
+| [Document Summarizer](https://github.com/MANMEET75/DocumentSummarizer-AgenticRAG-LlamaIndex) | Document summarization and retrieval with an API | Python · LlamaIndex · FastAPI |
+| [MCP Agentic Data Engineering](https://github.com/MANMEET75/MCP-Agentic-Data-Engineering) | Tool-driven data ingestion and workflow experiments | Python · MCP · MongoDB · MySQL |
+| [DataMentor](https://github.com/MANMEET75/DataMentor) | Data science interview assistant using a fine-tuned Mistral model | Python · Mistral · QLoRA |
 
 <details>
-<summary><strong>More projects</strong></summary>
+<summary><strong>Explore more repositories</strong></summary>
 
-- [VideoAnalytics-HAR](https://github.com/MANMEET75/VideoAnalytics-HAR) — human activity recognition with a Streamlit prototype and API.
+- [VideoAnalytics-HAR](https://github.com/MANMEET75/VideoAnalytics-HAR) — human activity recognition.
 - [HindBot](https://github.com/MANMEET75/HindBot) — retrieval-based question answering over documents.
-- [Email Semantic Search](https://github.com/MANMEET75/Email-SemanticSearchEngine-PoweredByOpenAI) — semantic search across email content.
 - [Portfolio](https://github.com/MANMEET75/Portfolio) — personal website source.
-- [Browse every repository →](https://github.com/MANMEET75?tab=repositories)
+- [Browse all repositories →](https://github.com/MANMEET75?tab=repositories)
 
 </details>
 
-## `> connect`
+## `> toolbox`
 
-Interested in applied AI, NLP, or developer tools? [Connect on LinkedIn](https://www.linkedin.com/in/manmeet75/) or explore the code above.
+`Python` · `SQL` · `NLP` · `embeddings` · `RAG` · `ONNX Runtime` · `FastAPI` · `Docker` · `GitHub Actions` · `AWS`
+
+**Building something in applied AI?** [Connect on LinkedIn](https://www.linkedin.com/in/manmeet75/).
